@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ChinhSuaTaiKhoan.css">
+    <title>Chỉnh sửa Thông tin tài khoản khách hàng</title>
+</head>
+<body>
+    <div class="box">
+        <h2>Chỉnh sửa Thông tin tài khoản khách hàng</h2>
+        
+        <form action="">
+            <label for="username">Tài khoản</label>
+            <input type="text" id="username" name="username" required value="abc@gmail.com">
+        </form>
+        
+        <form action="">
+            <label for="password">Mật khẩu</label>
+            <input type="password" id="password" name="password" required value="vana@123">
+        </form>
+        
+        <form action="">
+            <label for="dob">Ngày sinh</label>
+            <input type="date" id="dob" name="dob" required value="21/07/2005">
+        </form>
+        
+        <form action="">
+            <label for="gender">Giới tính</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Nam</option>
+                <option value="female">Nữ</option>
+            </select>
+        </form>
+        
+        <form action="">
+            <label for="phone">Số điện thoại</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required value="0123456789">
+        </form>
+        
+        <form action="Quanlynv.html">
+            <input type="submit" value="Xác nhận" class="submit-btn">
+        </form>
+    </div>
+</body>
+</html>
